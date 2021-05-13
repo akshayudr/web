@@ -1,0 +1,343 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*** top ***/
+
+.top-content:hover{
+    color: black;
+}
+
+.icons{
+    padding: 0 2%;
+}
+
+.icons:hover{
+    color: black;
+}
+
+/* bolding */
+
+.bold-head{
+    font-weight: bold;
+}
+
+/* grey-text */
+
+.grey-text{
+    color: grey;
+}
+
+/* grey-text & center */
+
+.card-text{
+    color: gray;
+    text-align: center;
+}
+
+/* grey */
+
+.grey{
+    color: grey;
+}
+
+
+.row-edit{
+    padding: 1% 0;
+    background-color: #81b214;
+    color: white;
+}
+.site{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.top-icon{
+    text-align: right;
+    padding: 0 15%;
+}
+
+.icon{
+    padding: 0 4%;
+}
+
+
+
+/* navigation bar */
+
+.navigation-bar{
+    background-color: white;
+    
+}
+
+.hospital-clr{
+    color: blue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.tagline{
+    text-align: right;
+    color:  #81b214;
+}
+
+.tagline:hover{
+    opacity: 0.5;
+}
+
+.navbar-brand{
+    padding: 0 8% 0 1% ;
+    text-align: center;
+
+
+}
+
+.small-text{
+    color: grey;
+    text-align: right;
+}
+
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.hospital-logo{
+    width: 80px;
+    border-radius: 100%;
+    margin: 0 0 0 100px;   
+}
+
+
+/* carousel */
+.carousel-image{
+    width: 100%;
+    height: 550px;
+}
+
+.first-block{
+    text-align: left;
+    color: #1CB024;
+    padding: 100px 0 100px 80px;
+    
+}
+
+.first-para{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.testimonial-headig{
+    line-height: 6rem;
+    font-weight: bold;
+}
+
+.para{
+    text-align: center;
+    padding: 50px 0 200px 0;
+}
+
+/* services */
+
+.feature{
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.fa-edit {
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    background: #81b214;
+    color: white;
+    border-radius: 100%;
+}
+
+.fa-edit:hover {
+    opacity: 0.7;
+}  
+
+.card-logo{
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+
+.bottom-cards{
+    padding-top: 26px;
+}
+
+#services{
+    background-color: #f2f6f6;
+    padding: 0 280px 100px 280px;
+    text-align: center;
+}
+
+/* z-index */
+
+.clinical{
+    color: white;
+    text-align: left; 
+}
+
+.z-size{
+    width: 100%;
+    height: 400px;
+}
+
+.z-text{
+    padding: 3% 0 3% 0;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+
+.z-bold{
+    font-weight: bold;  
+}
+
+.z-para{
+    width: 80%;
+    padding: 20px 0;
+}
+
+.z-image{
+    padding-left: 200px;
+    position: relative;
+    bottom: 112px;
+    z-index: 1; 
+}
+
+.z-bg{
+    width: 100%;
+    height: 400px;
+   position: absolute;
+  
+}
+
+
+/* gallery card */
+
+.gal-head{
+    padding: 70px 0 50px;
+}
+
+#gallery{
+    background-color: #eaf8f8;
+    padding: 0 130px 80px 130px;
+    text-align: center;
+}
+
+.gal{
+    padding: 3% 2%;
+}
+
+.icon-align{
+    padding: 2% 0 4%;
+}
+
+.icon:hover{
+    opacity: 0.7;
+}
+
+.card-image{
+    width: 286px;
+    height: 286px;
+}
+
+
+/* our blog */
+
+
+.white-space{
+    white-space: pre-wrap;
+}
+
+.bottom-card{
+    padding-top: 40px;
+}
+
+.blogs{
+    padding: 3%  2%;
+}
+
+#blog{
+    padding: 80px 100px 40px 100px;
+}
+
+/* about and contact */
+
+.about-row{
+    background-color: #252525;
+    color: white;
+    
+    padding: 50px 0 0 100px;
+
+}
+
+.line{
+    line-height: 1rem;
+}
+
+.direction1{
+   padding-left: 350px;
+}
+
+.direction{
+    padding-left: 335px;
+}
+
+.direction2{
+    padding-left: 360px;
+}
+
+
+.fa-angle-right:hover{
+    opacity: 0.5;
+}
+
+.hr-color{
+    background-color: #838383;
+}
+
+.pad{
+  
+    padding-bottom: 10px;
+}
+
+/* footer */
+
+.footer-row{
+    background-color: #151515;
+    color: white;
+    padding: 20px 100px 5px 100px;
+    
+}
+
+.footer-icon{
+    text-align: right;
+}
+
+.footer-icons{
+    padding: 0 2%;
+}
+
+.footer-icons:hover{
+    opacity: 0.5;
+}
+
+
+/* media */
+
+@media (max-width: 1050px) {
+  
+    .z-text {
+       text-align: left;
+       color: black;
+        }
+  }
+  
